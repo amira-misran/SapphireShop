@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCC"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:background="#FFCC99"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:gravity="center"
+        android:shadowColor="#B3CDE0"
+        android:text="WELCOME TO SAPPHIRE SHOP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#011F4B"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/calligraffitti"
+        android:text="Happy Shopping While Browsing !"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_width="393dp"
+        android:layout_height="311dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_top"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#FF9999"
+            android:fontFamily="serif-monospace"
+            android:text="TOP"
+            android:textColor="#011F4B"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_bottom"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#FF9999"
+            android:fontFamily="serif-monospace"
+            android:text="BOTTOM"
+            android:textColor="#011F4B"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_dress"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#FF9999"
+            android:fontFamily="serif-monospace"
+            android:text="DRESS"
+            android:textColor="#011F4B"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_shoes"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#FF9999"
+            android:fontFamily="serif-monospace"
+            android:text="SHOES"
+            android:textColor="#011F4B"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:scaleType="centerInside"
+
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/shoppingbag" />
+
+</LinearLayout>
